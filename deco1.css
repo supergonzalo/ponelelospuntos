@@ -1,0 +1,303 @@
+body {
+	font-family: Arial,Helvetica,sans-serif;
+	text-align: center;
+	background: #333;
+	margin: 0;
+  height: 100%;
+}
+
+#containerForIE {
+	position: relative;
+	max-width: 60em;
+	width: expression(document.body.clientWidth > 700? "60em" : "auto"); 
+	text-align: left;
+	background: #fff;
+	margin: auto;
+	margin-top: 0;
+	margin-bottom: -1.2em;
+	padding: 0;
+	min-height: 100%;
+}
+
+#header {
+	width: 100%;
+	clear: both;
+	color: #fff;
+	background: #f30; /* COLOR-BANNER */
+	height: 5em;
+}
+
+#logolink a {
+	text-decoration: none;
+	border: 1px solid red;
+}
+
+#logo {
+	position: relative;
+	float: left;
+	width: 190px;
+	height: 70px;
+	margin-left: 10px;
+	margin-top: 5px;
+	border: none;
+}
+
+
+
+#contact-info {
+	float: right;
+	font-size: .8em;
+	text-align: right;
+	font-weight: bold;
+	padding: 10px .5em .2em 0;
+}
+
+#contact-info p {
+	margin: .1em;
+}
+
+#contact-info a {
+	color: #fff;
+}
+
+#clearfooter {
+	height: 1em;
+	clear: both;
+}
+
+#footer {
+	position: relative;
+	margin: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+	max-width: 75em;
+
+	clear: both;
+	color: #fff;
+	xbackground: #300;
+	background: #f30; /* COLOR-BANNER */
+
+	font-size: .8em;
+	text-align: center;
+	font-weight: bold;
+}
+
+#footer a {
+	color: #fff;
+}
+
+#topbar {
+	float: left;
+	clear: both;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+
+	font-size: 1.1em;
+	line-height: 1.9em;
+
+	xOpcion1background: #333;
+	background: #ccc;
+}
+
+#menu {
+	float: left;	
+	margin: 0;
+	padding: 0;
+	padding-left: 4px;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#menu ul li {
+	display: inline;
+}
+
+#menu ul li a {
+	text-decoration: none;
+	margin: 0;
+	padding: .2em 1em .3em 1em;
+	text-align: center;
+
+	color: #000;
+	background: #fff;
+}
+
+#menu ul li a:link {
+}
+
+#menu ul li a:hover, #menu ul li a:focus, #menu ul li a:active {
+	text-decoration: none;
+	color: #fff;
+	background: #333;
+}
+
+#menu ul li a.current {
+	text-decoration: none;
+	color: #fff;
+	background: #333;
+}
+
+#buscar {
+	float: right;
+	padding: 0 5px 0 0 ;
+	height: 2em;
+}	
+
+#buscar .boton {
+
+	border: none;
+	font-size: 1em;
+	text-decoration: none;
+
+	padding: .1em 1em .1em 1em;
+
+	color: #000;
+	background: #fff;
+}
+
+#buscar .botonhover {
+	color: #fff;
+	background: #333;
+}
+
+#content {
+	padding: 0 1% 1em 4%;
+	text-align: justify;
+	line-height: 1.5em;
+	min-height: 100%;
+}
+
+#content p {
+	max-width: 45em;
+}
+
+.aladerecha {
+	display: block;
+	float: right;
+	width: 10em;
+	border: 1px solid black;
+	clear: right;
+	margin: .1em 10px .5em 1em;
+	position: relative;
+}
+
+
+.cloud {
+	padding-top: 3em;
+	max-width: 44em;
+	line-height: 2em;
+}
+
+.sombreroOficinista  {
+	color: #333;
+	text-decoration: none;
+}
+
+.sombreroEstudiante  {
+	color: #030;
+	text-decoration: none;
+}
+
+.sombreroPadre  {
+	color: #030;
+	text-decoration: none;
+}
+
+.sombreroPareja {
+	color: #030;
+	text-decoration: none;
+}
+
+.sombreroPaciente  {
+	color: #222;
+	text-decoration: none;
+}
+
+.ofertaAsistencia  {
+	font-weight: bold;
+	font-size: 1.3em;
+	color: #036;
+}
+
+.frase1 {
+	font-size: 1.2em;
+}
+
+.frase2 {
+	font-size: 1.1em;	
+	font-style: italic;
+}
+
+.frase3 {
+	font-family: serif;
+	font-size: 1.2em;
+}
+
+h1 {
+	margin-left: -2%;
+	line-height: 1.5em;	
+	font-size: 1.5em;
+}
+
+
+#areas ul li a {
+	display: block;
+	width: 100%;
+	background: #eee;
+	padding: .4em;
+	margin: .1em;
+	margin-bottom: .5em;
+	text-decoration: none;
+}
+
+#areas ul li a:hover {
+	background: #aaa;
+	padding: .4em;
+	margin: .1em;
+	margin-bottom: .5em;
+}
+
+#iusam {
+	border-left: thick solid red; 
+}
+
+#extension {
+	border-left: thick solid green; 
+}
+
+#formacion {
+	border-left: thick solid blue; 
+}
+
+#adistancia {
+	border-left: thick solid yellow; 
+}
+
+#biblioteca {
+	border-left: thick solid #ff22cc; 
+}
+
+#publicaciones {
+	border-left: thick solid #22ffcc; 
+}
+
+#cientificas {
+	border-left: thick solid #4422ff; 
+}
+
+#liberman {
+	border-left: thick solid #ff2244; 
+}
+
+#tesoreria {
+	border-left: thick solid #222266; 
+}
+
+
+
