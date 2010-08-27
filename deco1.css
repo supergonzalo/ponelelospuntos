@@ -173,7 +173,7 @@ body {
 
 #content {
 	padding: 0 1% 1em 4%;
-	text-align: justify;
+	text-align: left;
 	line-height: 1.5em;
 	min-height: 100%;
 }
@@ -185,13 +185,24 @@ body {
 .aladerecha {
 	display: block;
 	float: right;
-	width: 10em;
+	width: 14.5em;
 	border: 1px solid black;
 	clear: right;
 	margin: .1em 10px .5em 1em;
 	position: relative;
 }
 
+.aladerecha h1 {
+	margin: 0;
+	padding: 0 0 0 .1em;
+	background: #333;
+	color: #ffa;
+}
+
+.aladerecha p {
+	margin: 0;
+	margin-left: .1em;
+}
 
 .cloud {
 	padding-top: 3em;
