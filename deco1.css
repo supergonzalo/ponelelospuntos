@@ -182,6 +182,26 @@ body {
 	max-width: 45em;
 }
 
+.rubro {
+	margin: .5em .1em .5em -.2em;
+	width: 40em;
+	border: 1px solid #ff3;
+}
+
+.rubro h1 {
+	margin: 0;
+	background: #ff3;
+}
+
+.rubro p {
+	margin: 0;
+	margin-left: .2em;
+}
+
+.rubro a {
+	color: #f30; /* COLOR-BANNER */
+}
+
 .aladerecha {
 	display: block;
 	float: right;
