@@ -27,6 +27,13 @@ body {
 	height: 5em;
 }
 
+#header p {
+	margin: 0;
+	font-size: 4em;
+	padding: 0 1em .1em .1em;
+	color: #ffa; /* BANNER_FONT_COLOR */
+}
+
 #logolink a {
 	text-decoration: none;
 	border: 1px solid red;
@@ -74,8 +81,7 @@ body {
 	max-width: 75em;
 
 	clear: both;
-	color: #fff;
-	xbackground: #300;
+	color: #ffa; /* BANNER_FONT_COLOR */
 	background: #f30; /* COLOR-BANNER */
 
 	font-size: .8em;
@@ -84,7 +90,7 @@ body {
 }
 
 #footer a {
-	color: #fff;
+	color: #ffa; /* BANNER_FONT_COLOR */
 }
 
 #topbar {
@@ -97,8 +103,7 @@ body {
 	font-size: 1.1em;
 	line-height: 1.9em;
 
-	xOpcion1background: #333;
-	background: #ccc;
+	background: #ff9; /* BANNER_FONT_COLOR */
 }
 
 #menu {
